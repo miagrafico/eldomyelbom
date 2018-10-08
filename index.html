@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final JS</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+
+    <h1>Registro de Notas</h1>
+
+
+    <form class="" action="index.html" method="post" onreset="restablecer()" >
+         <label for="nombre">Nombre</label>
+         <input type="text" value="Comprobar" id="nombre">
+         <label for="codigo">Código</label>
+         <input type="text" value="Comprobar" id="codigo">
+         <label for="nota">Nota</label>
+         <input type="text" value="Comprobar" id="nota">
+         <input type="reset" class="button"name="" value="Reset">
+
+    </form>
+
+
+
+    <div class="button-group" >
+      <a class="button" id="registro">Registrar</a>
+
+      <a class="button" onclick="mostrarDatos(estudiantes)">Info. Estudiantes</a>
+      <a class="button" onclick="notaPromedio(estudiantes)" >Nota Promedio</a>
+      <a class="button" onclick="notaMayor(estudiantes)" >Nota Mayor</a>
+      <a class="button" onclick="notaMenor(estudiantes)" >Nota Menor</a>
+
+    </div>
+
+
+    <h1>Listado de Estudiantes</h1>
+
+
+      <table id="myTable">
+
+      </table>
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/JS.js"></script>
+  </body>
+</html>
